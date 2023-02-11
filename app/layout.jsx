@@ -2,7 +2,7 @@ import ClientProvider from "@/components/ClientProvider";
 import Login from "@/components/Login";
 import { SessionProvider } from "@/components/SessionProvider";
 import SideBar from "@/components/SideBar";
-import { authOptions } from "@/pages/api/auth/[...nextAuth]";
+import { authOptions } from "@/pages/api/auth/[...nextauth]";
 import { getServerSession } from "next-auth";
 import "./globals.css";
 
